@@ -1,0 +1,21 @@
+{
+    "files.autoSave": "afterDelay",
+    "editor.wordWrap": "on",
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "window.zoomLevel": 1,
+    "less.compile": {
+
+        "out": "../css/"
+    },
+    "px2rem.rootFontSize": 24,
+    "px2rem.autoRemovePrefixZero": false,
+    "px2rem.fixedDigits": 2,
+    "json.format.enable": true,
+    "json.schemaDownload.enable": false,
+    "workbench.activityBar.visible": true,
+    "winopacity.opacity": 255,
+    "workbench.colorTheme": "Visual Studio Dark",
+    "editor.formatOnType": true,
+    "editor.fontFamily": "'Fira Code',Consolas, 'Courier New', monospace",
+    "editor.fontLigatures": true
+}

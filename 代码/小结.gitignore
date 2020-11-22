@@ -1,0 +1,58 @@
+ git: git 是一个版本控制工具，作用：可以进行代码备份
+
+ 基础命令：
+    1、初始化  git init
+    2、将内容从工作区提交到暂存区 git add .
+    3、将内容从暂存区提交到仓库区 git commit -m '提示'
+    4、查看状态 git status
+    5、查看提交的日志 git log --online
+
+版本重置：
+    git reset --hard 版本号
+
+分支命令： 规范，开发一个新功能，新开一个分支，在分支中写代码，写完后合并到master
+    1、创建分支  git branch 分支名
+    2、切换分支  git checkout 分支名
+    3、合并分支 git merge 分支名
+    4、删除分支  git branch -d 分支名
+    5、创建并切换 git checkout -b 分支名
+    6、查看分支 git branch
+
+远程操作：先配置免密，直接用 ssh 的练习即可
+    1、推送到远程仓库  git push  仓库地址  master
+    2、克隆   git clone  仓库地址
+    3、拉取远程仓库更新 youcongyugit pull 仓库地址 远程分支名：本地分支名
+        又冲突时，拉不下来的，可以直接 git pull 强行拉下来，在本地处理冲突，在提交
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
